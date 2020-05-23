@@ -1,0 +1,39 @@
+body {
+    background-color: #fffff0;
+    color: black;
+}
+.container {
+    margin: 0 30px;
+    padding: 0 20px;
+}
+
+li {
+    list-style: none;
+}
+.btn {
+    padding: 10px;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+header {
+    padding: 5px 20px;
+    background-color: rgba(10, 10, 10, 0.7);
+    color: white;
+}
+
+.main {
+    background-color: white;
+}
+.title {
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+}
+footer {
+    padding: 5px 20px;
+    background-color: rgba(10, 10, 10, 0.7);
+    color: white;
+}
+

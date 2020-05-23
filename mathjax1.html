@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>はじめてのMathJax</title>
+        <link rel="stylesheet" href="mathjax1.css">
+        <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                TeX: { equationNumbers: { autoNumber: "AMS" }},
+                tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { matchFontHeight: false },
+            displayAlign: "left",
+            displayIndent: "2em"
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <p>れいやのホームページ（仮の仮の仮）</p>
+        </header>
+        <div class="main">
+            <div class="title">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h1>はじめてのMathJax</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <div class="content-content">
+                            <h2>はじめてのMathJaxです</h2>
+                            <p>
+                                HTMLもまともにしてない僕ですが，今回はMathJaxというものを使って，
+                                いろいろ書きたいと思います！
+                            </p>
+                            <ul>
+                                <li>
+                                    二次ペル方程式は$x^2 - N_2 y^2 = \pm 1$です。
+                                </li>
+                                <li>三次ペル方程式は
+                                    \[
+                                        x^3 + N_3 y^3 + N_3^2 z^3 - 3 N_3 x y z = 1
+                                    \]
+                                    です。
+                                </li>
+                                <li>
+                                    四次ペル方程式は
+                                    \begin{align*}
+                                        x_{1}^{4} &- N_4 x_{2}^{4} + N_4^{2} x_{3}^{4} - N_4^{3} x_{4}^{4}
+                                        - 2 N_4 x_{1}^{2} x_{3}^{2} + 2 N_4^{2} x_{2}^{2} x_{4}^{2}\\
+                                        &+ 4 N_4 x_{1} x_{2}^{2} x_{3} - 4 N_4 x_{1}^{2} x_{2} x_{4}
+                                        + 4 N_4^{2} x_{1} x_{3} x_{4}^{2} - 4 N_4^{2} x_{2} x_{3}^{2} x_{4}
+                                        = \pm 1
+                                    \end{align*}
+                                    です。
+                                </li>
+                            </ul>
+                            <p>
+                                MathJaxすごい！今試したのは"$$"と"\[ \]"
+                                と"\begin{align} \end{align}"です！<br>
+                                今回はこんな感じです。ありがとうございました～
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer>
+            <p>
+                れいやのホームページ（仮の仮の仮）
+            </p>
+            <div class="btn twitter">
+                <input type="button"
+                onclick="location.href='https://twitter.com/reiya0104'" value="Twitterはこちら">
+            </div>
+        </footer>
+    </body>
+</html>
